@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 50;
+    padding: 50;
+    box-sizing: border-box ;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: hsl(293, 100%, 50%);
+}
+
+.navbar-brand.navbar-brand{
+    font: size 10px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#navbarSupportedContent a{
+    color:rgb(255, 255, 255);
+    background: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+
+    border-bottom: 2px solid  whitesmoke;
+    font: white;
+
+}
+
+#navbarSupportedContent button{
+    background:  rgb(255, 255, 255);
+    color: rgb(206, 9, 255);
+    font-weight: 600;
+    border-radius: 9px;
+    border-block-end-width: 2px;
+    border-color: #f700ff;
+}
+
+#navbarSupportedContent button{
+    border-color: violet;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/****home****/
+#Home
+{
+    background-image: url(pictures/img0.png)!important;
+    background-color: #b90efd !important;
+    background-size: cover;
+    background-position: bottom;
+    flex-direction:bottom;
+    margin: my -2px mx -2px;
+    box-decoration-break: slice;
+
+
+}
+#Home h1{
+
+    font-size: 70px;
+    color:whitesmoke;
+    letter-spacing: 3px;
+    align-items:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px, 1px, #ccc,
+                 0px, 2px, #ccc,
+                 0px, 3px, #ccc,
+                 0px, 4px, #ccc,
+                 0px, 5px, #ccc,
+                 0px, 6px, #ccc;
+                 
+                 
+}
+#Home p{
+
+    font-size: 18px;
+    color: white;
+}
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+    border-color: #b105f5;
+}
+
+.Explore{
+    background: #b90efd            !important;
+    color: white                   !important;
+}
+/****About*****/
+#About{
+   background: linear-gradient(rgb(245, 240, 169));
+
+}
+/****Products****/
+#Products{
+    background: #e5e5e5;
+}
+#Products h1{
+
+    font-size: 50 px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+    
+#Products img{
+
+    width: 200px;
+    height: 300px;
+    background-color: #e2b4f5;
+
+}
+
+.card{
+    width:250px;
+    height:300px;
+    background: #fdfbfd !important;
+    border: None !important;
+    box-sizing: content-box;
+    box-shadow: 15px 20px  15px rgba(0,0,0,.3);
+               inset: 4px 4px 10px white;
+               border-radius: 15px;
+               overflow: hidden;
+               justify-items: center;
+               justify-content: center;
+               font-size: x-small !important;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+               margin: 20px 60px;
+}
+.card:hover
+{
+
+    box-shadow : inset 5px 5px  10px rgba(0,0,0,.3);
+               inset: -4px -4px 10px white;
+            transition: .2s;
+}
+
+/****Contact Us******/
+#Contact{
+
+    background-color: rgb(30, 2, 61);
+    color: white;
+}
+
+.box{
+    width: 80% !important;
+    background-position: rgb(238, 137, 229);
+    margin-top: 100px;
+}
+
+#contact input{
+    margin: 10px 10px;
+}
